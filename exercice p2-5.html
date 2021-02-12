@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>exercice p2-5</title>
+  </head>
+  <body>
+    <h1>Formulaire </h1>
+    <form class="form" action="traitement.php" method="post">
+      <p>
+        <label for="nom">Veuillez saisir votre nom :</label>
+        <input type="text" name="nom" placeholder="nom" id="nom" required >
+      </p>
+      <p>
+        <label for="prénom">Veuillez saisir votre prénom :</label>
+        <input type="text" name="prénom" placeholder="prénom" id="prénom" required >
+      </p>
+      <p>
+        <label for="adresse">Veuillez saisir votre adresse :</label>
+        <input type="text" name="adresse" placeholder="adresse" id="adresse" required >
+      </p>
+      <p>
+        <label for="téléphone">Veuillez saisir votre numéro de téléphone :</label>
+        <input type="tel" name="téléphone" placeholder="téléphone" id="téléphone" required >
+      </p>
+      <p>
+        <label for="password"> Veuillez saisir votre mot de passe :</label>
+        <input type="password" name="password" placeholder="Password" id="password" required >
+      </p>
+      <p>
+      <input type="submit" name="envoyer" value="envoyer" id="send">
+      </p>
+    </form>
+</body>
+</html>
