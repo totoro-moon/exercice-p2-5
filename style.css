@@ -1,0 +1,14 @@
+form{
+  width: 350px;
+  padding: 1em;
+  background-color: #BC8F8F;
+  border-radius: 4%;
+  box-shadow: 5px 5px black;
+}
+input{
+  display: block;
+  color: grey;
+  margin-top: 5px;
+  width: 150px;
+  border-radius:
+}
